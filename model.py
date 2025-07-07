@@ -2,7 +2,7 @@ from dgcnn import DGCNN
 from torch_geometric.data import Data
 from torch_geometric.nn import knn_graph
 import torch.nn.functional as F
-from torch_geometric.nn import GINConv, global_add_pool
+from torch_geometric.nn import GINConv
 import torch
 import torch.nn as nn
 
